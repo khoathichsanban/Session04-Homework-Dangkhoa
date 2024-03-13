@@ -1,0 +1,9 @@
+.content {
+  text-align: justify;
+  background-color: bisque;
+  font-size: 20px;
+}
+.text-line {
+  text-decoration: underline;
+  color: blue;
+}

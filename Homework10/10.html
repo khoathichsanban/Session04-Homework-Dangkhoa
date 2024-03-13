@@ -1,0 +1,139 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./10.css">
+    </head>
+    <body>
+        <div class="billing-address">
+            <p class="heading-bill">Billing Address</p>
+            <div class="full-name">
+                <div class="div-firstname">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name id="first-name">
+                </div>
+                <div class="div-lastname">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name id="last-name">
+                </div>
+            </div>
+            <div class="div-username margin-top">
+                <label for="username">Username</label>
+                <div class="username-input">
+                    <span class="margin-top icon-username ">@</span>
+                    <input type="text" placeholder="Username">
+                </div>
+            </div>
+            <div class="div-email">
+                <label for="email">Email <span
+                        class="optional">(Optional)</span> </label>
+                <input type="text" name class="email"
+                    placeholder="you@example.com">
+            </div>
+            <div class="div-address margin-top">
+                <label for="address">Address</label>
+                <input type="text" name class="address"
+                    placeholder="1234 Main St">
+            </div>
+            <div class="div-address margin-top">
+                <label for="address">Address 2 <span
+                        class="optional">(Optional)</span> </label>
+                <input type="text" name class="address"
+                    placeholder="1234 Main St">
+            </div>
+            <div class="div-country margin-top">
+                <div class="country">
+                    <label for>Country</label>
+                    <select name id class="country-choose">
+                        <option value>Choose...</option>
+                        <option value>VietNam</option>
+                        <option value>England</option>
+                        <option value>USA</option>
+
+                    </select>
+                </div>
+                <div class="div-state">
+                    <label for>State</label>
+                    <select name id class="state-choose">
+                        <option value>Choose...</option>
+                        <option value>London</option>
+                        <option value>Ha Noi</option>
+                        <option value>New York</option>
+                    </select>
+                </div>
+                <div class="div-zip">
+                    <label for>Zip</label>
+                    <input type="text" class="zip-text">
+                </div>
+            </div>
+            <div class="div-checkbox">
+                <div class="div-checkbox-01">
+                    <input type="checkbox" name id="checkbox01"> <label
+                        for="checkbox01">Shipping address is the same as my
+                        billing
+                        address</label>
+                </div>
+                <div class="div-checkbox-02">
+                    <div class="div-checkbox-02">
+                        <input type="checkbox" name id="checkbox02"> <label
+                            for="checkbox02">Save this information for next
+                            time</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="payment">
+                <p class="payment-content">
+                    Payment
+                </p>
+            </div>
+            <div class="payment-type">
+                <div class="payment-type margin-top">
+                    <input type="radio" name="payment-method"
+                        id="credit-item">
+                    <label for="credit-item"> Credit card</label>
+                </div>
+                <div class="payment-type margin-top">
+                    <input type="radio" name="payment-method"
+                        id="debit-item">
+                    <label for="debit-item">Debit card</label>
+                </div>
+                <div class="payment-type margin-top">
+                    <input type="radio" name="payment-method"
+                        id="paypal-item">
+                    <label for="paypal-item">PayPal</label>
+                </div>
+            </div>
+            <div class="payment-infor">
+                <div class="payment-infor-card">
+                    <div class="name-card">
+                        <label for>Name on card</label>
+                        <input type="text" class="boder-style">
+                    </div>
+                    <div
+                        class="number-card">
+                        <label for>Credit card number</label>
+                        <input type="text" class="boder-style">
+                    </div>
+                </div>
+                <span class="optional">Full name as displayed on card</span>
+                <div class="expiration-card">
+                    <div class="expiration">
+                        <label for>Expiration</label>
+                        <input type="text" class="boder-style">
+                    </div>
+                    <div class="cvv-card">
+                        <label for>CVV</label>
+                        <input type="text" class="boder-style">
+                    </div>
+                </div>
+            </div>
+
+            <div class="button">
+                <button>Continue to checkout</button>
+            </div>
+
+        </body>
+    </html>

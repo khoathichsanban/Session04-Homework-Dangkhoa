@@ -1,0 +1,39 @@
+.notify {
+  text-align: center;
+}
+
+.header,
+.footer {
+  background-color: #2321214f;
+  padding: 2px 0;
+  border: 1px solid #eeeeeeb0;
+}
+
+.body {
+  border-left: 2px solid #706e6e;
+  border-right: 2px solid #5b5555;
+  padding: 16px 0;
+}
+.pharagrah {
+  font-size: 25px;
+  font-weight: 800px;
+}
+
+button {
+  padding: 8px 10px;
+  background-color: #0870f8;
+  border: none;
+  border-radius: 2px;
+  color: #f7f7f7;
+  cursor: pointer;
+}
+
+.footer {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  color: #303438;
+}
+.header {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}

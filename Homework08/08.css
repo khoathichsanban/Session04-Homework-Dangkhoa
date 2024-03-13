@@ -1,0 +1,55 @@
+.pharaghap {
+  font-size: 20px;
+}
+.red-code {
+  color: red;
+  background-color: #f5f3f4;
+}
+.center-align-text {
+  text-align: center;
+  border: 5px solid #3d943e;
+  padding: 12px 0;
+  font-size: 20px;
+}
+.example {
+  margin-top: 16px;
+  background-color: #e4e8ec;
+  padding: 14px;
+}
+.content-code {
+  background-color: #fff;
+  border-left: 4px solid #0bad72;
+  margin-left: 5px;
+}
+.center {
+  color: #c07862;
+  margin-top: 0;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.color-br {
+  color: black;
+}
+.code {
+  margin-left: 15px;
+}
+.text-align,
+.boder {
+  color: #e95d4e;
+  font-size: 20px;
+}
+.center-color,
+.boder-color {
+  color: blue;
+  font-size: 20px;
+}
+.button {
+  background-color: #3d943e;
+  border: none;
+  margin-top: 16px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: #e4e8ec;
+  font-size: 18px;
+}
